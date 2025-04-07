@@ -23,7 +23,7 @@ screen_size=get(0,'ScreenSize');
 screen_size(1:2)=screen_size(1:2)+0.05*screen_size(3:4);
 screen_size(3:4)=screen_size(3:4)*0.8;
 %% read scan freq
-scanned_offset = transpose(load(fullfile('BM_simu_Zspetrum','Offset frequencies for APT scans - 54pts.txt')));
+scanned_offset = transpose(load('Offset frequencies for APT scans - 54pts.txt'));
 scanned_offset = round(scanned_offset/1.2314)/100;
 scanned_offset_sorted = sort(scanned_offset,'descend');
 [scanned_offset_uniq, col] = unique(scanned_offset_sorted, "stable");
