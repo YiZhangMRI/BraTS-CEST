@@ -1,6 +1,6 @@
 # BraTS-CEST
 MATLAB code for BraTS-CEST data synthesis pipeline
-![banner](httpsgithub.com8fanmaoBraTS-CESTblobmainbanner.jpg)
+![banner](https://github.com/YiZhangMRI/BraTS-CEST/blob/main/banner.jpg)
 
 ### `⚠️ The operation of BraTS-CEST depends on local BraTS and fastMRI datasets.`
 ### `Please follow the instructions on the start page of GUI to download the above datasets.`
